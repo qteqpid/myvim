@@ -1,5 +1,6 @@
 execute pathogen#infect()
 
+
 " basic setting
 set nocompatible			" 关闭兼容模式
 color desert
@@ -39,3 +40,6 @@ set tags=./tags,./../tags,./../../tags,./../../../tags,tags " which tags files C
 let g:DoxygenToolkit_authorName="zhanggongliang@meituan.com"
 let g:DoxygenToolkit_licenseTag="\<enter>Copyright (c) 2013 meituan.com, Inc. All Rights Reserved" 
 let g:DoxygenToolkit_compactDoc="yes"
+
+" ctrlp
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
