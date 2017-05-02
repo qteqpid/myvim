@@ -35,6 +35,7 @@ set ttymouse=xterm2  " 可拖动切屏大小
 
 " ctags
 set tags=./tags,./../tags,./../../tags,./../../../tags,tags " which tags files CTRL-] will search
+set cscopetag
 
 " doxygen
 let g:DoxygenToolkit_authorName="zhanggongliang@meituan.com"
