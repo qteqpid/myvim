@@ -1,3 +1,4 @@
 sh bootstrap.sh
+rm -rf bundle/*
 git submodule init
 git submodule update
